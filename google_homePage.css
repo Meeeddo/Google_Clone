@@ -6,46 +6,53 @@
 }
 
 h1{
-	padding-left: 390px;
-	margin: 0px;
-	font-size: 6em;
-	font-family: Century Gothic;
-	
+	position: relative;
+	left: 450px;
+	font-size: 80px;
+	font-family: Open Sans Condensed;
 }
 
-.google{
-	position: relative;
-	bottom: 20px;	
-}
 
 .blue{
 	color: #4485f3;
 	
 }
 
-.magnifier{
+.magnifier img{
 	position: relative;
 	right: 217px;
-	top: 90px;
+	top: 95px;
+	width: 30px;
 	background-color: green;
 	margin-left: 100%;
 }
 
 
-.snap{
+.snap img{
 	position: relative;
 	left: 310px;
 	top: 63px;
+	width: 20px;
 	background-color: green;
 	margin-left: 100%;
 }
 
-.voiceLogo{
+.voiceLogo img{
 	position: relative;
 	left: 273px;
 	top: 38px;
+	width: 17px;
 	background-color: green;
 	margin-left: 100%;
+}
+
+
+.blue2{
+	color: #4485f3;
+}
+
+.red2{
+	color: #eb4134;
 }
 
 .red{
@@ -60,37 +67,53 @@ h1{
 	color: #34a853;
 }
 
-ul{
+section header ul .images{
 	position: relative;
-	top: 10px;
-	right: 15px;
-}
-
-section ul{
-	padding-top: 15px;
-	padding-left:80%;
-	display: flex;	
-}
-
-section header ul li{
+	left: 1050px;
+	font-size: 20px;
+	top: 5px;
 	list-style: none;
-	margin-left: 15px;	
 }
+
+section header ul .gmail{
+	position: relative;
+	left: 963px;
+	font-size: 20px;
+	top: 30px;
+	list-style: none;
+	
+}
+
+section header ul li img{
+	max-width: 35px;
+	position: relative;
+	bottom: 25px;
+	left: 1130px;
+	list-style: none;
+}
+
+
+
+
+
+
+
+
 
 a{
 	text-decoration: none;
 	color: #000;
 }
 
-h1{
-	padding-top: 2px;;
-}
 
 section header ul li button{
 	background: hsl(218, 84%, 60%);
 	border: none;
 	position: relative;
-	bottom: 8px;
+	bottom: 68px;
+	left: 1180px;
+	width: 80px;
+	height: 38px;
 	outline: none;
 	padding: 8px 15px;
 	color: #fff;
@@ -201,20 +224,16 @@ h5{
 	font-size: small;
 }
 
+
 .offered{
-	position: relative;
-	left: 290px;
-	bottom: 30px;
+	position: inherit;
 	font-family: Verdana;
 	font-weight: lighter;
 	color: grey;
 	font-size: small;
+	padding-left: 400px;
 }
 
-.offer{
-	padding-left: 95px;
-	padding-bottom: 5px;
-}
 
 
 .footer{
@@ -224,6 +243,8 @@ h5{
 	background-color: rgba(227, 226, 226, 0.452);
 	padding-left: 20px;
 	font-family: Arial;
+	border-bottom-style: ridge;
+	border-bottom-color: #fff;
 	font-size: small;
 }
 
@@ -301,6 +322,231 @@ h5{
 	
 }
 
+@media screen and (max-width: 599px){
+
+	section header ul .signIn{
+		position: relative;
+		width: 210px;
+		height: 90px;
+		font-size: 45px;
+		size: 90px;
+		left: 655px;
+		bottom: 90px;
+	}
+	
+	section header ul li img{
+		max-width: 80px;
+		position: relative;
+		bottom: 10px;
+		left: 550px;
+		list-style: none;
+	}
+
+	section header ul .images{
+		position: relative;
+		left: 40px;
+		font-size: 45px;
+		top: 50px;
+		list-style: none;
+	}
+	
+	section header ul .gmail{
+		position: relative;
+		left: 210px;
+		font-size: 45px;
+		top: 100px;
+		list-style: none;
+		
+	}
+
+	section header ul{
+		position: relative;
+		bottom: 80px;
+	}
+
+	h1{
+		position: relative;
+		font-size: 85px;
+		text-align: center;	
+		align-self: center;
+		left: 210px;
+		font-family: Open Sans Condensed
+	}
+
+	
+	section .main .searchBox{
+	width: 100%;
+
+	position: relative;
+	bottom: 60px;
+	right: 320px;
+
+	
+	}
+
+	section .main .searchBox .search{
+		position: relative;
+		z-index: -1;
+		width: 800px;
+		left: 15px;
+		height: 75px;
+		border: 1px solid #ccc;
+		border-radius: 30px;
+		font-size: 16px;
+	
+	}
+
+	.magnifier{
+		position: relative;
+		top: 18px;
+		left: 30px;		
+		max-width: 50px;
+		background-color: green;
+		margin-left: 100%;
+	}
+	
+	
+	.snap{
+		position: relative;
+		left: 210px;
+		top: 20px;
+		background-color: green;
+		margin-left: 100%;
+	}
+	
+	.voiceLogo{
+		position: relative;
+		left: 203px;
+		top: 20px;
+		background-color: green;
+		margin-left: 100%;
+	}
+
+	.bigButton1{
+	position: relative;
+	left: 350px;
+	font-size: 20px;
+	top: 70px;
+	height: 70px;
+	width: 190px;
+	cursor: pointer;
+	padding: 15px 20px;
+	padding-left: auto;
+	border: none;
+	margin-left: auto;
+	padding-bottom: 7px;
+	padding-top: 7px;
+		
+}
+
+.bigButton2{
+	position: relative;
+	left: 570px;
+	cursor: pointer;
+	padding: 15px 20px;
+	font-size: 15px;
+	height: 70px;
+	width: 190px;
+	border: none;
+	margin-left: auto;
+	padding-bottom: 7px;
+	padding-top: 7px;
+		
+}
+
+.offered{
+	position: inherit;
+	width: 700px;
+	padding-left: 190px;
+
+	align-self: center;
+}
 
 
+.hausa{
+	position: relative;
+	
+	padding: 15px;
+	font-family: Verdana;
+	font-weight: lighter;
+	color: rgb(58, 78, 164);
+	font-size: small;
+}
 
+
+.igbo{
+	position: relative;
+	font-family: Verdana;
+	font-weight: lighter;
+	color: rgb(58, 78, 164);
+	font-size: small;
+}
+
+.yoruba{
+	position: relative;
+	font-family: Verdana;
+	font-weight: lighter;
+	color: rgb(58, 78, 164);
+	font-size: small;
+}
+
+.pidgin{
+	position: relative;
+	font-family: Verdana;
+	font-weight: lighter;
+	color: rgb(58, 78, 164);
+	font-size: small;
+}
+
+.footer{
+	margin-top: 195px;
+	padding: 15px;
+	align-content: center;
+	background-color: rgba(227, 226, 226, 0.452);
+	padding-left: 20px;
+	font-family: Arial;
+	font-size: 30px;
+	width: 896px;
+	position: relative;
+	top: 432px;
+	height: 100px;
+	color: #817a7a;
+}
+
+.row1{
+	background-color: rgba(227, 226, 226, 0.452);
+	margin-top: 0.7px;
+	align-items: normal;
+	width: 896px;
+	align-self: center;
+	position: relative;
+	height: 200px;
+	top: 434px;
+	
+}
+
+.row1 .belowText a{
+	font-size: 30px;
+	align-items: center;
+	margin-bottom: 20px;
+	color: #817a7a;
+}
+
+.how{
+	position: relative;
+	left: 130px;
+	
+}
+
+.business{
+	position: relative;
+	left: 100px;
+}
+
+.advert{
+	position: relative;
+	left: 50px;	
+}
+
+
+}
