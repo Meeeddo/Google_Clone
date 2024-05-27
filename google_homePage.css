@@ -69,26 +69,26 @@ h1{
 
 section header ul .images{
 	position: relative;
-	left: 1050px;
-	font-size: 20px;
+	left: 1040px;
+	font-size: 14px;
 	top: 5px;
 	list-style: none;
 }
 
 section header ul .gmail{
 	position: relative;
-	left: 963px;
-	font-size: 20px;
-	top: 30px;
+	left: 983px;
+	font-size: 14px;
+	top: 23px;
 	list-style: none;
 	
 }
 
 section header ul li img{
-	max-width: 35px;
+	max-width: 23px;
 	position: relative;
-	bottom: 25px;
-	left: 1130px;
+	bottom: 15px;
+	left: 1100px;
 	list-style: none;
 }
 
@@ -106,20 +106,19 @@ a{
 }
 
 
-section header ul li button{
-	background: hsl(218, 84%, 60%);
+.signIn{
+	background: hsl(218, 73%, 52%);
 	border: none;
 	position: relative;
-	bottom: 68px;
-	left: 1180px;
-	width: 80px;
-	height: 38px;
+	bottom: 45px;
+	left: 1150px;
+	width: 95px;
+	height: 35px;
 	outline: none;
 	padding: 8px 15px;
 	color: #fff;
-	font-size: 15px;
-	font-weight: 550;
-	border-radius: 3px;
+	font-size: 12px;
+	border-radius: 4px;
 	cursor: pointer;
 }
 
@@ -177,7 +176,7 @@ section .main .searchBox .search{
 	padding-left: 45px;
 	padding-right: 80px;
 	height: 45px;
-	border: 1px solid #ccc;
+	border: 3px solid #ccc;
 	border-radius: 30px;
 	font-size: 16px;
 }
@@ -329,15 +328,16 @@ h5{
 		width: 210px;
 		height: 90px;
 		font-size: 45px;
+		border-radius: 9px;
 		size: 90px;
 		left: 655px;
-		bottom: 90px;
+		bottom: 70px;
 	}
 	
 	section header ul li img{
-		max-width: 80px;
+		max-width: 70px;
 		position: relative;
-		bottom: 10px;
+		top: 3px;
 		left: 550px;
 		list-style: none;
 	}
@@ -354,7 +354,7 @@ h5{
 		position: relative;
 		left: 210px;
 		font-size: 45px;
-		top: 100px;
+		top: 98px;
 		list-style: none;
 		
 	}
@@ -389,7 +389,7 @@ h5{
 		z-index: -1;
 		width: 800px;
 		left: 15px;
-		height: 75px;
+		height: 85px;
 		border: 1px solid #ccc;
 		border-radius: 30px;
 		font-size: 16px;
@@ -400,7 +400,6 @@ h5{
 		position: relative;
 		top: 18px;
 		left: 30px;		
-		max-width: 50px;
 		background-color: green;
 		margin-left: 100%;
 	}
@@ -408,10 +407,13 @@ h5{
 	
 	.snap{
 		position: relative;
-		left: 210px;
+		right: 360px;
 		top: 20px;
-		background-color: green;
+		
 		margin-left: 100%;
+		width: 100%;
+		height: auto;
+		
 	}
 	
 	.voiceLogo{
@@ -425,7 +427,8 @@ h5{
 	.bigButton1{
 	position: relative;
 	left: 350px;
-	font-size: 20px;
+	font-size: 22px;
+
 	top: 70px;
 	height: 70px;
 	width: 190px;
@@ -444,7 +447,7 @@ h5{
 	left: 570px;
 	cursor: pointer;
 	padding: 15px 20px;
-	font-size: 15px;
+	font-size: 22px;
 	height: 70px;
 	width: 190px;
 	border: none;
